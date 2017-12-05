@@ -3,9 +3,13 @@ package com.projectbackend.daoImpl;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.stereotype.Repository;
+
 import com.projectbackend.dao.CategoryDAO;
 import com.projectbackend.dto.Category;
 
+
+@Repository("categoryDAO")
 public class CategoryDAOImpl implements CategoryDAO {
 
 	private static List<Category> categories= new  ArrayList<Category>();

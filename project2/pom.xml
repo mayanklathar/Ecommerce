@@ -8,6 +8,8 @@
   <name>project2 Maven Webapp</name>
   <url>http://maven.apache.org</url>
   
+  
+  <!-- Spring properties -->
   <properties>
   <javaee.version>7.0</javaee.version>
   <spring.version>4.3.6.RELEASE</spring.version>
